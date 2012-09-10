@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rules\DailyRule.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="ClassAccess.cs" />
+    <Compile Include="DisplayReminder.cs" />
+    <Compile Include="MailReminder.cs" />
+    <Compile Include="ProcedureReminder.cs" />
     <Compile Include="VCalender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VEvent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
